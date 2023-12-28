@@ -1,12 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import { Link } from 'react-router-dom';
-import blog1 from '../assets/images/blog/blog-1.jpg'
-import blog2 from '../assets/images/blog/blog-2.jpg'
-import blog3 from '../assets/images/blog/blog-3.jpg'
-import blog4 from '../assets/images/blog/blog-4.jpg'
 import a6 from '../assets/images/about/a6.jpg'
-import video from '../assets/images/about/1.mp4'
 import Marquee from "react-fast-marquee";
 import orders from '../assets/images/icons/icon1.png'
 import orders1 from '../assets/images/icons/icon2.png'
@@ -40,13 +35,6 @@ const about = () => {
       </div>
     </div>
   </section>
-
-  {/* <section className="about-app p-5">
-    <h2 className='fs-1 text-center mb-4' >Download our <Link>App</Link></h2>
-    <div className="col-12 p-5 col-md-8 mx-auto">
-      <video loop muted autoPlay src={video} className='w-100'></video>
-    </div>
-  </section> */}
             
             <div className="col-12 p-3">
             <Marquee className='p-2 slide'>

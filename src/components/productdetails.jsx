@@ -7,7 +7,6 @@ import { PRODUCTS, PRODUCTS1, PRODUCTS2 } from './products';
 const ProductDetails = () => {
   const { selectedProduct, closeProductDetails, addToCart, cartItems, removeToCart, updateCartItemCount } = useContext(ShopContext);
 
-  // Set selectedProduct to 0
   const productId = selectedProduct || 0;
   
   const product = PRODUCTS.find((p) => p.id === productId) || PRODUCTS1.find((p) => p.id === productId) || PRODUCTS2.find((p) => p.id === productId);
