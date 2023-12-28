@@ -47,47 +47,6 @@ const about = () => {
       <video loop muted autoPlay src={video} className='w-100'></video>
     </div>
   </section> */}
-
-  <section className="abouts p-5">
-    <div className="container-xxl">
-      <div className="row">
-        <div className="col-12 d-flex flex-column align-items-center">
-          <h1 className='mb-3'>Que dicen nuestros clientes sobre nosotros...</h1>
-          <p className='mb-4'>Our customers never miss a bit on providing feedback</p>
-        </div>
-        <div className="col-12 col-md-6 p-3">
-          <div className="card mb-3">
-          <div className="row g-0">
-            <div className="col-md-4">
-              <img src={blog1} className="img-fluid rounded-start" alt="..." />
-            </div>
-            <div className="col-md-8">
-              <div className="card-body">
-                <h5 className="card-title">Marvel Clein</h5>
-                <p className="card-text mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit <br />. Doloribus maxime consequatur, ipsam architecto incidunt volup <br />tate! Iste ipsa numquam quos nam quibusdam perferendis excepturi rem, a quo laudantium libero dolore nisi.</p>
-                <p className="card-text"><small className="text-body-secondary">Last updated 3 mins ago</small></p>
-              </div>
-              </div>
-           
-             </div>
-          </div>
-        </div>
-        <div className="col-12 col-md-6 p-3">
-              <div className="card mb-3">
-                <div className="row g-0">
-                  <div className="col-md-4">
-                    <img src={blog2} alt="" className='img-fluid rounded-start' />
-                  </div>
-                  <div className="col-md-8">
-                    <div className="card-body">
-                      <h5 className="card-title">Melisa Ivy</h5>
-                      <p className="card-text mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit <br />. Doloribus maxime consequatur, ipsam architecto incidunt volup <br />tate! Iste ipsa numquam quos nam quibusdam perferendis excepturi rem, a quo laudantium libero dolore nisi.</p>
-                      <p className="card-text"><small className="text-body-secondary">Last Updated now</small></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
             
             <div className="col-12 p-3">
             <Marquee className='p-2 slide'>
@@ -114,9 +73,8 @@ const about = () => {
               </div>
             </Marquee>
             </div>
-      </div>
-    </div>
-  </section>
+      
+    
   </>;
 }
 

@@ -8,8 +8,8 @@ const contact = () => {
         <div className="container-xxl">
           <div className="row">
             <div className="col-12 text-center">
-              <h1 className=" text">Reach Out to Us</h1>
-              <p className=" text fs-3">We are only a step away from you</p>
+              <h1 className=" text">Conoce donde estamos</h1>
+              <p className=" text fs-3">solo estamos a un paso de ti</p>
             </div>
           </div>
         </div>
@@ -20,7 +20,7 @@ const contact = () => {
             <div className="col-lg-6 col-md-12 p-3">
               <div className="map card m-auto embed-responsive embed-responsive-16by9">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63826.53634427054!2d37.09345325!3d-1.04201225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f4e5b27c66117%3A0xb6f8a7e126152c26!2sThika!5e0!3m2!1sen!2ske!4v1668532780442!5m2!1sen!2ske"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3042.0239880642653!2d-3.8740941245220064!3d40.31962516154459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd418d7c7a1da4c5%3A0x1eec9b741db85d5b!2sLUNA%20Y%20MAGA%C3%91A%20DECORACIONES%20SL!5e0!3m2!1ses!2ses!4v1703755936627!5m2!1ses!2ses"
                   allowfullscreen=""
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"

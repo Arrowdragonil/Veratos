@@ -29,17 +29,25 @@ const home = () => {
                   <h2>Decoraciones</h2>
 
                   <p className='mb-3'>Productos de alta calida en tu tienda de confianza</p>
-
-                  <Link to='/shop' className='btn btn-primary' id='button-link'>Compra ahora</Link>
                   </div>
               </div>
             </div>
+            
           </div>
           </div>
       </div>
     </div>
   </section>
+  
   <Hero />
+
+  <div className="pic-ctn">
+    <img src="https://res.cloudinary.com/dsmjl7xs3/image/upload/v1703754966/colchon1_1_f8e1xb.jpg" alt="" className="pic" />
+    <img src="https://res.cloudinary.com/dsmjl7xs3/image/upload/v1703755086/colchon2_1_j0nneq.jpg" alt="" className="pic" />
+    <img src="https://res.cloudinary.com/dsmjl7xs3/image/upload/v1703755172/cortina1_1_qcyx7z.jpg" alt="" className="pic" />
+    <img src="https://res.cloudinary.com/dsmjl7xs3/image/upload/v1703755255/cortina2_1_oik3bn.jpg" alt="" className="pic" />
+    <img src="https://res.cloudinary.com/dsmjl7xs3/image/upload/v1703755372/sabanas_1_frms4a.jpg" alt="" className="pic" />
+  </div>
 
   <section className="featured-products p-4">
     <div className="container-xxl">
@@ -52,6 +60,7 @@ const home = () => {
       </div>
     </div>
   </section>
+  
 
   {/* <section className="repair-services p-5">
     <div className="container-xxl">
@@ -124,63 +133,7 @@ const home = () => {
     </div>
   </section> */}
 
-  <section className="blogs p-5">
-  <div className="container-xxl">
-    <div className="row">
-      <div className="col-12 text-center">
-        <h1 className="mb-3">Reseñas...</h1>
-        <p className="mb-4"></p>
-      </div>
-      <div className="col-md-3 col-sm-6 mb-4">
-        <div className="card">
-          <img src={blog1} className="card-img-top img-fluid" alt="..." />
-          <div className="card-body">
-            <p className="card-text">bla.</p>
-            <Link to='about'>
-            <button className="mt-4">Learn more</button>
-            </Link>
-          </div>
-        </div>
-      </div>
-
-      <div className="col-md-3 col-sm-6 mb-4">
-        <div className="card">
-          <img src={blog2} className="card-img-top img-fluid" alt="..." />
-          <div className="card-body">
-            <p className="card-text">bla.</p>
-            <Link to='about'>
-            <button className="mt-4">Learn more</button>
-            </Link>
-          </div>
-        </div>
-      </div>
-
-      <div className="col-md-3 col-sm-6 mb-4">
-        <div className="card">
-          <img src={blog3} className="card-img-top img-fluid" alt="..." />
-          <div className="card-body">
-            <p className="card-text">bla.</p>
-            <Link to='about'>
-            <button className="mt-4">Learn more</button>
-            </Link>
-          </div>
-        </div>
-      </div>
-
-      <div className="col-md-3 col-sm-6 mb-4">
-        <div className="card">
-          <img src={blog4} className="card-img-top img-fluid" alt="..." />
-          <div className="card-body">
-            <p className="card-text">bla.</p>
-            <Link to='about'>
-            <button className="mt-4">Learn more</button>
-            </Link>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+  
 
   <Newsletter />
   </>;
